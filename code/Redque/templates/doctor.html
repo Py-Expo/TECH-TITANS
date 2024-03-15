@@ -1,0 +1,70 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doctor Dashboard</title>
+        <link rel="stylesheet" href="C:\Users\Asus\OneDrive\Desktop\Redque\static\styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="C:\Users\Asus\OneDrive\Desktop\Redque\templates\home.html" ><img  src="C:\Users\Asus\OneDrive\Desktop\Redque\images\logo.jpg" alt="Logo" class="logo"></a>
+            </nav>
+        </header>
+        <main>
+            <section class="doctor-info">
+                <div class="doctor-photo">
+                    <img src="C:\Users\Asus\OneDrive\Desktop\Redque\images\doctor.jpg" alt="Doctor Photo">
+                </div>
+                <div class="highlight">
+                <div class="doctor-details">
+                    <h2 class="name">Dr. Mounitha</h2>
+                    <p>MBBS</p>
+                    <p>Contact: 6385623011</p>
+                </div>
+            </div>
+            </section>
+            <div class="highlight">
+            <section class="time-slots">
+                <h2>Available Time Slots</h2>
+                <div class="time-slots-list">
+                    <label><input type="checkbox" name="time-slot" value="9:00 AM"> 9:00 AM</label><br>
+                    <label><input type="checkbox" name="time-slot" value="10:00 AM"> 10:00 AM</label><br>
+                    <label><input type="checkbox" name="time-slot" value="11:00 AM"> 11:00 AM</label><br>
+                    <label><input type="checkbox" name="time-slot" value="12:00 AM"> 12:00 AM</label><br>
+                    <label><input type="checkbox" name="time-slot" value="1:00 AM"> 1:00 AM</label><br>
+                    <!-- Add more time slots as needed -->
+                </div>
+                <button class="submit-button" onclick="submitSlots()">Submit</button>
+            </section>
+        </div>
+        <div class="highlight">  
+        <section class="patient-details">
+                <h2>Patient Details</h2>
+                <!-- Add patient details table here -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Appointment Time</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>45</td>
+                            <td>10:00 AM</td>
+                            <td>Consultation</td>
+                        </tr>
+                        <!-- Add more patient details rows as needed -->
+                    </tbody>
+                </table>
+            </section>
+        </div> 
+        </main>
+    
+    </body>
+    </html>
